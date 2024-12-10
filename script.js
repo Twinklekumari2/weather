@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded",function(){
     }
 
     async function fetchCityDetails(inputCity){
-        const url = `http://api.weatherapi.com/v1/current.json?key=0a68597856544d8788e83823241012&q=${inputCity}&aqi=yes`;
-
+        const url = `https://api.weatherapi.com/v1/current.json?key=0a68597856544d8788e83823241012&q=${inputCity}&aqi=yes`;
+        
         // const data = await response.json();
         // console.log(data);
         
