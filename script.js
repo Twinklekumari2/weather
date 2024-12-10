@@ -1,4 +1,4 @@
-document.addEventListener('click',function(){
+document.addEventListener("DOMContentLoaded",function(){
     const container = document.querySelector(".container");
     const degree = document.getElementById("degree");
     const cityName = document.getElementById("cityName");
